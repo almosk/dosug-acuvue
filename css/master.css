@@ -209,40 +209,60 @@ a {
           width: 500px;
           height: auto; }
 
-.qimg {
+.qimg1 {
   width: 500px;
   height: 333px;
   background-image: url(../img/question1.png);
   background-size: cover;
   z-index: 99; }
-  .qimg .selectCircles {
+  .qimg1 .selectCircles {
     position: absolute;
     width: 312px;
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-    .qimg .selectCircles .selectCircle {
+    .qimg1 .selectCircles .selectCircle {
       opacity: 0;
       position: relative;
       width: 35px;
       height: 35px;
       border: 2px solid #ffffff;
       border-radius: 100%; }
-  .qimg #sc1 {
+  .qimg1 #sc1 {
     margin-left: 122px;
     margin-top: 122px; }
-  .qimg #sc2 {
+  .qimg1 #sc2 {
     margin-left: 185px;
     margin-top: 190px; }
-  .qimg #sc3 {
+  .qimg1 #sc3 {
     margin-left: 2px;
     margin-top: 70px; }
-  .qimg #sc4 {
+  .qimg1 #sc4 {
     margin-left: 81px;
     margin-top: 85px; }
-  .qimg #sc5 {
+  .qimg1 #sc5 {
     margin-left: 88px;
     margin-top: 230px; }
+
+.qimg3 {
+  width: 500px;
+  height: 333px;
+  background-image: url(../img/question3.png);
+  background-size: contain;
+  z-index: 99; }
+  .qimg3 .selectCircle3 {
+    opacity: 0;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #000000;
+    border-radius: 100%; }
+  .qimg3 #sc_31 {
+    margin-left: 275px;
+    margin-top: 71px; }
+  .qimg3 #sc_32 {
+    margin-left: 84px;
+    margin-top: 141px; }
 
 .lastpage {
   position: relative;
