@@ -127,11 +127,12 @@ a {
       height: 100vh;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 9; }
       .contentWrapperFrame .contentWrapper .page .testWrapper {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-start; }
         .contentWrapperFrame .contentWrapper .page .testWrapper .textText {
           width: 470px;
@@ -207,6 +208,41 @@ a {
         .contentWrapperFrame .contentWrapper .page .testWrapper .testImage {
           width: 500px;
           height: auto; }
+
+.qimg {
+  width: 500px;
+  height: 333px;
+  background-image: url(../img/question1.png);
+  background-size: cover;
+  z-index: 99; }
+  .qimg .selectCircles {
+    position: absolute;
+    width: 312px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .qimg .selectCircles .selectCircle {
+      opacity: 0;
+      position: relative;
+      width: 35px;
+      height: 35px;
+      border: 2px solid #ffffff;
+      border-radius: 100%; }
+  .qimg #sc1 {
+    margin-left: 122px;
+    margin-top: 122px; }
+  .qimg #sc2 {
+    margin-left: 185px;
+    margin-top: 190px; }
+  .qimg #sc3 {
+    margin-left: 2px;
+    margin-top: 70px; }
+  .qimg #sc4 {
+    margin-left: 81px;
+    margin-top: 85px; }
+  .qimg #sc5 {
+    margin-left: 88px;
+    margin-top: 230px; }
 
 .lastpage {
   position: relative;

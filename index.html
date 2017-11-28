@@ -46,8 +46,14 @@
             <div class="textText">
               <h2>Первый вопрос</h2>
               <p>Начнем с традиционного теста на внимательность. Помните, как в детстве вы искали отличия на картинках? Тут почти тоже самое, но уже в реальной жизни. Так ли просто обмануть ваш взгляд? Итак, сколько отличий на картинках вы можете найти?</p>
+              <p>Нажмите любой картинке на место, отличающеемся от другой. Найдите все различия.</p>
 
               <form class="form1">
+                <button id="next1" type="submit">Следующий вопрос →</button>
+              </form>
+
+
+              <!-- <form class="form1">
                 <ul class="formUl">
                   <li>
                     <input type="radio" id="q1a" name="selector1" value="0">
@@ -69,12 +75,34 @@
                 </ul>
 
                 <button id="next1" type="submit">Следующий вопрос →</button>
-              </form>
+              </form> -->
 
               <pre class="log log1"></pre>
             </div>
 
-            <img src="img/question1.png" class="testImage" alt="">
+            <!-- <img src="img/question1.png" class="testImage" alt=""> -->
+            <div class="qimg">
+              <div class="selectCircles" id="sc1">
+                <div class="selectCircle" id="sc11"></div>
+                <div class="selectCircle" id="sc12"></div>
+              </div>
+              <div class="selectCircles" id="sc2">
+                <div class="selectCircle" id="sc21"></div>
+                <div class="selectCircle" id="sc22"></div>
+              </div>
+              <div class="selectCircles" id="sc3">
+                <div class="selectCircle" id="sc31"></div>
+                <div class="selectCircle" id="sc32"></div>
+              </div>
+              <div class="selectCircles" id="sc4">
+                <div class="selectCircle" id="sc41"></div>
+                <div class="selectCircle" id="sc42"></div>
+              </div>
+              <div class="selectCircles" id="sc5">
+                <div class="selectCircle" id="sc51"></div>
+                <div class="selectCircle" id="sc52"></div>
+              </div>
+            </div>
 
           </div>
         </section>
@@ -117,7 +145,7 @@
           </div>
         </section>
 
-        <section class="page page2">
+        <section class="page page3">
           <div class="testWrapper">
 
             <div class="textText">
@@ -152,6 +180,82 @@
             </div>
 
             <img src="img/question3.png" class="testImage" alt="">
+          </div>
+        </section>
+
+        <section class="page page4">
+          <div class="testWrapper">
+
+            <div class="textText">
+              <h2>Четвертый вопрос</h2>
+              <p>Данный вопрос будет трудным не только для дальтоников. Попробуйте рассмотреть в этих новогодних шарах цифры и решить математическое выражение.</p>
+              <form class="form4">
+                <ul class="formUl">
+                  <li>
+                    <input type="radio" id="q4a" name="selector4" value="0">
+                    <div class="check"></div>
+                    <label for="q3a">42</label>
+                  </li>
+
+                  <li>
+                    <input type="radio" id="q4b" name="selector4" value="1">
+                    <div class="check"></div>
+                    <label for="q4b">23</label>
+                  </li>
+
+                  <li>
+                    <input type="radio" id="q4c" name="selector4" value="0">
+                    <div class="check"></div>
+                    <label for="q4c">2</label>
+                  </li>
+                </ul>
+
+                <button id="next4" type="submit">Следующий вопрос →</button>
+              </form>
+
+              <pre class="log log4"></pre>
+              <!-- <div class="next">Следующий вопрос →</div> -->
+            </div>
+
+            <img src="img/question4.png" class="testImage" alt="">
+          </div>
+        </section>
+
+        <section class="page page5">
+          <div class="testWrapper">
+
+            <div class="textText">
+              <h2>Пятый вопрос</h2>
+              <p>Этот вопрос на обман зрения. На картинке явно можно видеть множество елочек. Но сколько именно? P.S. Советуем тут не спешить.</p>
+              <form class="form5">
+                <ul class="formUl">
+                  <li>
+                    <input type="radio" id="q5a" name="selector5" value="0">
+                    <div class="check"></div>
+                    <label for="q5a">4</label>
+                  </li>
+
+                  <li>
+                    <input type="radio" id="q5b" name="selector5" value="0">
+                    <div class="check"></div>
+                    <label for="q5b">8</label>
+                  </li>
+
+                  <li>
+                    <input type="radio" id="q5c" name="selector5" value="1">
+                    <div class="check"></div>
+                    <label for="q5c">13</label>
+                  </li>
+                </ul>
+
+                <button id="next5" type="submit">Следующий вопрос →</button>
+              </form>
+
+              <pre class="log log5"></pre>
+              <!-- <div class="next">Следующий вопрос →</div> -->
+            </div>
+
+            <img src="img/question5.png" class="testImage" alt="">
           </div>
         </section>
 
