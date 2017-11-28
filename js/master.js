@@ -4,11 +4,11 @@ $(function() {
     $('.bg').css({"transform":"scale(1.3)"});
   })
 
-  var counter = 0
+  var counter = ''
 
   $('#next1').click(function() {
-    var form = $("form.formForm1")[0];
-    var log = $(".logLog1")[0];
+    var form = $("form.form1")[0];
+    var log = $(".log1")[0];
 
     form.addEventListener("submit", function(event) {
       var data = new FormData(form);
@@ -16,13 +16,13 @@ $(function() {
 
       for (const entry of data) {
         output = entry[0] + "=" + entry[1] + "\r";
-        console.log(output)
-        counter+=entry[1]
+        // console.log(output)
+        counter += entry[1]
         console.log(counter)
       };
 
 
-      $(".logLog1")[0].innerText = output;
+      // $(".log1")[0].innerText = output;
       event.preventDefault();
     }, false);
 
@@ -30,8 +30,8 @@ $(function() {
   })
 
   $('#next2').click(function() {
-    var form = $("form.formForm2")[0];
-    var log = $(".logLog2")[0];
+    var form = $("form.form2")[0];
+    var log = $(".log2")[0];
 
     form.addEventListener("submit", function(event) {
       var data = new FormData(form);
@@ -39,15 +39,36 @@ $(function() {
       // console.log(data)
       for (const entry of data) {
         output = entry[0] + "=" + entry[1] + "\r";
-        console.log(output)
+        // console.log(output)
         counter+=entry[1]
         console.log(counter)
       };
-      $(".logLog2")[0].innerText = output;
+      // $(".log2")[0].innerText = output;
       event.preventDefault();
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-300vh)"});
+  })
+
+  $('#next3').click(function() {
+    var form = $("form.form3")[0];
+    var log = $(".log3")[0];
+
+    form.addEventListener("submit", function(event) {
+      var data = new FormData(form);
+      var output = "";
+      // console.log(data)
+      for (const entry of data) {
+        output = entry[0] + "=" + entry[1] + "\r";
+        // console.log(output)
+        counter+=entry[1]
+        console.log(counter)
+      };
+      // $(".log3")[0].innerText = output;
+      event.preventDefault();
+    }, false);
+
+    $('.contentWrapper').css({"transform":"translateY(-400vh)"});
   })
 
 
