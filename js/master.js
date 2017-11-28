@@ -2,6 +2,7 @@ $(function() {
   $('#proyti').click(function() {
     $('.contentWrapper').css({"transform":"translateY(-100vh)"});
     $('.bg').css({"transform":"scale(1.3)"});
+    $('.bg').css({"opacity":".5"});
   })
 
   var counter = ''
@@ -66,11 +67,24 @@ $(function() {
       };
       // $(".log3")[0].innerText = output;
       event.preventDefault();
+
+      var fnlcounter = 0
+      for (var i = 0; i < counter.length; i++) {
+        if (counter[i] == '1') {
+          fnlcounter+=1
+        }
+      }
+
+      // $("h2.result").innerHTML = fnlcounter + '/' + counter.length
+      results = document.getElementsByClassName('results')[0]
+      results.innerHTML = 'Ваш результат ' + fnlcounter + '/' + counter.length
+
+      console.log(counter, fnlcounter)
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-400vh)"});
+
+
   })
-
-
 
 })

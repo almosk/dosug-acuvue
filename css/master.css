@@ -5,6 +5,10 @@
 a {
   color: inherit; }
 
+.hidden {
+  opacity: 0;
+  cursor: default; }
+
 .bg {
   position: fixed;
   width: 100vw;
@@ -194,11 +198,28 @@ a {
             line-height: 20px;
             background-color: rgba(0, 0, 0, 0);
             border: 0px;
-            padding: 0; }
-            .contentWrapperFrame .contentWrapper .page .testWrapper .textText div:active, .contentWrapperFrame .contentWrapper .page .testWrapper .textText button:active {
-              box-shadow: 0; }
+            padding: 0;
+            cursor: pointer; }
+            .contentWrapperFrame .contentWrapper .page .testWrapper .textText div:focus, .contentWrapperFrame .contentWrapper .page .testWrapper .textText button:focus {
+              outline: none !important; }
+            .contentWrapperFrame .contentWrapper .page .testWrapper .textText div:hover, .contentWrapperFrame .contentWrapper .page .testWrapper .textText button:hover {
+              text-decoration: underline; }
         .contentWrapperFrame .contentWrapper .page .testWrapper .testImage {
           width: 500px;
           height: auto; }
+
+.lastpage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .lastpage div {
+    font-family: GraphikCy-Regular;
+    font-size: 55px;
+    color: #01468B;
+    letter-spacing: 1.15px;
+    line-height: 59px; }
 
 /*# sourceMappingURL=master.css.map */
