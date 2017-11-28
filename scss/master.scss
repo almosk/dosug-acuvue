@@ -28,10 +28,10 @@ a {
   position: fixed;
   right: 0;
   height: 100vh;
-  width: 317px;
+  width: calc(100vh * 0.391041162);
   background-image: url(../img/shape.svg);
   background-position: right;
-  background-size: 100% auto;
+  background-size: cover;
 
   padding: 40px 24px;
   display: flex;
@@ -297,15 +297,63 @@ a {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  div {
+  .results {
     font-family: GraphikCy-Regular;
     font-size: 55px;
     color: #01468B;
     letter-spacing: 1.15px;
     line-height: 59px;
+
+    margin-bottom: 20px;
+  }
+
+  p {
+    width: 486px;
+    font-family: GraphikCy-Regular;
+    font-size: 16px;
+    color: #01468B;
+    letter-spacing: 0.33px;
+    line-height: 24px;
+
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 400px;
+    height: auto;
+
+    margin: 0 43px;
+  }
+
+  .greenbutton {
+    display: block;
+    width: 280px;
+    height: 48px;
+    margin: auto;
+    margin-top: 50px;
+    background: #00E559;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-family: GraphikLCG-Medium;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.7px;
+    line-height: 48px;
+    text-decoration: none;
+    text-align: center;
+    transition: .2s ease-in;
+
+    &:hover {
+      // transform: scale(1.005);
+      -webkit-box-shadow: 0 1px 8px 0 #A6A6A6;
+      box-shadow: 0 1px 8px 0 #CCCCCC;
+      text-decoration: underline;
+    }
   }
 
 }
