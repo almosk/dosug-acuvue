@@ -578,7 +578,28 @@ a {
 
 }
 
-@media (max-device-width: 375px) {
+@media (max-width: 668px) and (min-width: 666px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: scale(.45);
+  }
+
+  .page0 {
+    .frame {
+      min-width: 507px;
+      transform: scale(.45);
+    }
+  }
+
+  .lastpage .text {
+    transform: scale(.45);
+  }
+}
+
+@media (max-device-width: 414px) {
   .page0 {
     .frame {
       min-width: 507px;
