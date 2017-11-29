@@ -12,12 +12,18 @@ $(function() {
   $('#sc11').click(function() {
     $(sc11).css({"opacity":"1"});
     $(sc12).css({"opacity":"1"});
+
+    $(sc11).css({"animation":"none"});
+    $(sc12).css({"animation":"none"});
     dedmorozcounter += 1
   });
 
   $('#sc12').click(function() {
     $(sc11).css({"opacity":"1"});
     $(sc12).css({"opacity":"1"});
+
+    $(sc11).css({"animation":"none"});
+    $(sc12).css({"animation":"none"});
     dedmorozcounter += 1
   });
 
@@ -293,6 +299,8 @@ $(function() {
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-900vh)"});
+    $('.bg').css({"transform":"scale(1.5)"});
+    $('.bg').css({"opacity":".2"});
   })
 
   $('a.back').click(function() {

@@ -355,7 +355,7 @@ a {
   .lastpage img {
     width: 400px;
     height: auto;
-    margin: 0 43px; }
+    margin: 20px 43px; }
   .lastpage .greenbutton {
     display: block;
     width: 280px;
@@ -378,8 +378,6 @@ a {
       box-shadow: 0 1px 8px 0 #CCCCCC;
       text-decoration: underline; }
   .lastpage .back {
-    display: block;
-    width: 100%;
     font-family: GraphikLCG-Regular;
     font-size: 10px;
     color: #01468B;
@@ -387,13 +385,29 @@ a {
     letter-spacing: 0.33px;
     line-height: 24px;
     text-align: center;
-    margin-top: 10px; }
+    margin-right: 10px; }
 
+#sc11, #sc12 {
+  animation: pulse 1s infinite;
+  opacity: .6;
+  cursor: pointer; }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8); }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); } }
 .socialWrapper {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin-top: 50px; }
+  margin-top: 20px; }
+
+.social-likes__widget {
+  border: 0px !important; }
 
 @media (max-width: 1024px) {
   .testWrapper {
@@ -437,7 +451,17 @@ a {
       line-height: 16px; }
       .logos .acuvueLogo a {
         width: 75px;
-        height: 14px; } }
+        height: 14px; }
+
+  .lastpage .greenbutton {
+    width: 430px;
+    height: 58px;
+    font-size: 25px;
+    line-height: 58px; }
+
+  .socialWrapper {
+    margin-top: 35px;
+    transform: scale(1.4); } }
 @media (max-device-width: 320px) {
   .page0 .frame {
     min-width: 507px;
