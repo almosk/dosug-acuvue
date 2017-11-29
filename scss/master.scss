@@ -542,7 +542,7 @@ a {
 
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 375px) {
   .page0 {
     .frame {
       min-width: 507px;
@@ -578,7 +578,7 @@ a {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-device-width: 320px) {
   .page0 {
     .frame {
       min-width: 507px;
