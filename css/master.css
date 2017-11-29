@@ -44,13 +44,16 @@ a {
       transform: scale(1.05); }
   .logos .acuvueLogo {
     width: 177px;
-    height: 53px;
     font-family: GraphikCy-Regular;
     font-size: 10px;
     color: #01468C;
     letter-spacing: 0.7px;
     line-height: 25px;
-    text-align: right; }
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end; }
     .logos .acuvueLogo a {
       display: block;
       background-image: url(../img/acuvue-logo.png);
@@ -376,5 +379,72 @@ a {
     line-height: 24px;
     text-align: center;
     margin-top: 10px; }
+
+@media (max-width: 1024px) {
+  .testWrapper {
+    transform: scale(0.8); } }
+@media (max-width: 768px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    transform: scale(1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .contentWrapperFrame .contentWrapper .page .testWrapper .textText {
+      margin-bottom: 50px; }
+
+  .logos {
+    right: -90px;
+    padding: 30px 110px; }
+    .logos .dosugLogo a {
+      width: 100px; }
+    .logos .acuvueLogo a {
+      width: 110px; } }
+@media (max-width: 375px) {
+  .page0 .frame {
+    min-width: 507px;
+    transform: scale(0.65); }
+
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    transform: scale(0.65); }
+
+  .lastpage .text {
+    transform: scale(0.65); }
+
+  .logos {
+    right: -120px;
+    padding: 16px 130px; }
+    .logos .dosugLogo a {
+      width: 70px;
+      height: 18px; }
+    .logos .acuvueLogo {
+      font-size: 6px;
+      line-height: 16px; }
+      .logos .acuvueLogo a {
+        width: 75px;
+        height: 14px; } }
+@media (max-width: 320px) {
+  .page0 .frame {
+    min-width: 507px;
+    transform: scale(0.5); }
+
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    transform: scale(0.5); }
+
+  .lastpage .text {
+    transform: scale(0.5); }
+
+  .logos {
+    right: -80px;
+    padding: 16px 85px; }
+    .logos .dosugLogo a {
+      width: 70px;
+      height: 18px; }
+    .logos .acuvueLogo {
+      font-size: 6px;
+      line-height: 16px; }
+      .logos .acuvueLogo a {
+        width: 75px;
+        height: 14px; } }
 
 /*# sourceMappingURL=master.css.map */

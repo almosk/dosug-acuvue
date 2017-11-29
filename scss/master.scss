@@ -57,7 +57,7 @@ a {
 
   .acuvueLogo {
     width: 177px;
-    height: 53px;
+    // height: 53px;
 
     font-family: GraphikCy-Regular;
     font-size: 10px;
@@ -65,6 +65,11 @@ a {
     letter-spacing: 0.7px;
     line-height: 25px;
     text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
 
     a {
       display: block;
@@ -485,4 +490,111 @@ a {
     margin-top: 10px;
   }
 
+}
+
+@media (max-width: 1024px) {
+  .testWrapper {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    transform: scale(1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .textText {
+      margin-bottom: 50px;
+    }
+  }
+
+  .logos {
+    right: -90px;
+    padding: 30px 110px;
+
+    .dosugLogo a {
+      width: 100px;
+    }
+
+    .acuvueLogo a {
+      width: 110px;
+    }
+  }
+
+}
+
+@media (max-width: 375px) {
+  .page0 {
+    .frame {
+      min-width: 507px;
+      transform: scale(.65);
+    }
+  }
+
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    transform: scale(.65);
+  }
+
+  .lastpage .text {
+    transform: scale(.65);
+  }
+
+  .logos {
+    right: -120px;
+    padding: 16px 130px;
+
+    .dosugLogo a {
+      width: 70px;
+      height: 18px;
+    }
+
+    .acuvueLogo {
+      font-size: 6px;
+      line-height: 16px;
+      a {
+        width: 75px;
+        height: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .page0 {
+    .frame {
+      min-width: 507px;
+      transform: scale(.5);
+    }
+  }
+
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    transform: scale(.5);
+  }
+
+  .lastpage .text {
+    transform: scale(.5);
+  }
+
+  .logos {
+    right: -80px;
+    padding: 16px 85px;
+
+    .dosugLogo a {
+      width: 70px;
+      height: 18px;
+    }
+
+    .acuvueLogo {
+      font-size: 6px;
+      line-height: 16px;
+      a {
+        width: 75px;
+        height: 14px;
+      }
+    }
+  }
 }
