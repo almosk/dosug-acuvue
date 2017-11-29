@@ -1,3 +1,18 @@
+@font-face {
+  src: url(../fonts/GraphikLCG-Bold.otf);
+  font-family: GraphikLCG-Bold;
+}
+
+@font-face {
+  src: url(../fonts/GraphikLCG-Medium.otf);
+  font-family: GraphikLCG-Medium;
+}
+
+@font-face {
+  src: url(../fonts/GraphikLCG-Regular.otf);
+  font-family: GraphikLCG-Regular;
+}
+
 * {
   box-sizing: border-box;
   background-repeat: no-repeat;
@@ -59,7 +74,7 @@ a {
     width: 177px;
     // height: 53px;
 
-    font-family: GraphikCy-Regular;
+    font-family: GraphiLCG-Regular;
     font-size: 10px;
     color: #01468C;
     letter-spacing: 0.7px;
@@ -120,7 +135,7 @@ a {
           margin-top: 50px;
 
           h2 {
-            font-family: GraphikCy-Regular;
+            font-family: GraphikLCG-Regular;
             font-size: 24px;
             color: #01468C;
             letter-spacing: 0.8px;
@@ -130,7 +145,7 @@ a {
           }
 
           h3 {
-            font-family: GraphikCy-Bold;
+            font-family: GraphikLCG-Bold;
             font-size: 40px;
             color: #01468C;
             letter-spacing: 0.8px;
@@ -142,7 +157,7 @@ a {
           }
 
           p {
-            font-family: GraphikCy-Regular;
+            font-family: GraphikLCG-Regular;
             font-size: 16px;
             color: #01468C;
             letter-spacing: 0.3px;
@@ -193,7 +208,7 @@ a {
           margin-right: 50px;
 
           h2 {
-            font-family: GraphikCy-Regular;
+            font-family: GraphikLCG-Regular;
             font-size: 55px;
             color: #01468B;
             letter-spacing: 1.15px;
@@ -203,7 +218,7 @@ a {
           }
 
           p {
-            font-family: GraphikCy-Regular;
+            font-family: GraphikLCG-Regular;
             font-size: 16px;
             color: #01468B;
             letter-spacing: 0.33px;
@@ -422,7 +437,7 @@ a {
   justify-content: center;
 
   .results {
-    font-family: GraphikCy-Regular;
+    font-family: GraphikLCG-Regular;
     font-size: 55px;
     color: #01468B;
     letter-spacing: 1.15px;
@@ -433,7 +448,7 @@ a {
 
   p {
     width: 486px;
-    font-family: GraphikCy-Regular;
+    font-family: GraphikLCG-Regular;
     font-size: 16px;
     color: #01468B;
     letter-spacing: 0.33px;
@@ -479,7 +494,7 @@ a {
   .back {
     display: block;
     width: 100%;
-    font-family: GraphikCy-Regular;
+    font-family: GraphikLCG-Regular;
     font-size: 10px;
     color: #01468B;
     opacity: .7;
