@@ -387,7 +387,7 @@ a {
     text-align: center;
     margin-right: 10px; }
 
-#sc11, #sc12 {
+#sc11, #sc12, #sc_811, #sc_812 {
   animation: pulse 1s infinite;
   opacity: .6;
   cursor: pointer; }
@@ -409,6 +409,9 @@ a {
 .social-likes__widget {
   border: 0px !important; }
 
+@media (max-width: 1280px) {
+  .logos {
+    padding: 30px 24px; } }
 @media (max-width: 1024px) {
   .testWrapper {
     transform: scale(0.8); } }

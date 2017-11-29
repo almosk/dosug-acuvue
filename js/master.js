@@ -210,12 +210,18 @@ $(function() {
   $('#sc_811').click(function() {
     $(sc_811).css({"opacity":"1"});
     $(sc_812).css({"opacity":"1"});
+
+    $(sc_811).css({"animation":"none"});
+    $(sc_812).css({"animation":"none"});
     podarkicounter += 1
   });
 
   $('#sc_812').click(function() {
     $(sc_811).css({"opacity":"1"});
     $(sc_812).css({"opacity":"1"});
+
+    $(sc_811).css({"animation":"none"});
+    $(sc_812).css({"animation":"none"});
     podarkicounter += 1
   });
 
@@ -294,6 +300,16 @@ $(function() {
       } else if (fnlcounter == 8) {
         resultsP.innerHTML = 'Да у вас орлиный глаз! Острое зрение ваш конек, но терять это качество точно не стоит. Чтобы вам было проще, попробуйте линзы Acuvue, с ними вы увидите мир по-новому. Если вы до сих пор сомневаетесь, то попробуйте сами! Достаточно просто оставить заявку на сайте, и вы получите первую пару линз абсолютно бесплатно :)'
       }
+
+      if (fnlcounter == 0) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 1) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 2) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 3) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 4) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 5) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 6) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 7) {$("meta[property='og:image']").attr("content", 'yooo');}
+      if (fnlcounter == 8) {$("meta[property='og:image']").attr("content", 'yooo');}
 
       console.log(counter, fnlcounter)
     }, false);
