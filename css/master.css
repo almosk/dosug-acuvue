@@ -32,7 +32,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  z-index: 2; }
+  z-index: 0; }
   .logos .dosugLogo a {
     display: block;
     background-image: url(../img/dosug-logo.png);
@@ -64,7 +64,8 @@ a {
 .contentWrapperFrame {
   width: 100vw;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 9; }
   .contentWrapperFrame .contentWrapper {
     transition: .5s ease-in-out; }
     .contentWrapperFrame .contentWrapper .page0 {
@@ -263,6 +264,58 @@ a {
   .qimg3 #sc_32 {
     margin-left: 84px;
     margin-top: 141px; }
+
+.qimg8 {
+  width: 500px;
+  height: 333px;
+  background-image: url(../img/question8.png);
+  background-size: cover;
+  z-index: 99; }
+  .qimg8 .selectCircles {
+    position: absolute;
+    width: 312px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .qimg8 .selectCircles .selectCircle {
+      opacity: 0;
+      position: relative;
+      width: 35px;
+      height: 35px;
+      border: 2px solid #ffffff;
+      border-radius: 100%; }
+  .qimg8 #sc_81 {
+    margin-left: 41px;
+    margin-top: 90px; }
+  .qimg8 #sc_82 {
+    margin-left: 192px;
+    margin-top: 113px; }
+  .qimg8 #sc_83 {
+    margin-left: 30px;
+    margin-top: 157px; }
+  .qimg8 #sc_84 {
+    margin-left: 66px;
+    margin-top: 135px; }
+  .qimg8 #sc_85 {
+    margin-left: 6px;
+    margin-top: 295px; }
+
+.qimg7 {
+  width: 500px;
+  height: 333px;
+  background-image: url(../img/question7.png);
+  background-size: contain;
+  z-index: 99; }
+  .qimg7 .selectCircle7 {
+    opacity: 0;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #ffffff;
+    border-radius: 100%; }
+  .qimg7 #sc_71 {
+    margin-left: 320px;
+    margin-top: 169px; }
 
 .lastpage {
   position: relative;

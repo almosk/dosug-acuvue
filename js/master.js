@@ -193,21 +193,122 @@ $(function() {
       // $(".log3")[0].innerText = output;
       event.preventDefault();
 
-      var fnlcounter = 0
-      for (var i = 0; i < counter.length; i++) {
-        if (counter[i] == '1') {
-          fnlcounter+=1
-        }
-      }
-
-      // $("h2.result").innerHTML = fnlcounter + '/' + counter.length
-      results = document.getElementsByClassName('results')[0]
-      results.innerHTML = 'Ваш результат ' + fnlcounter + '/8'
-
-      console.log(counter, fnlcounter)
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-700vh)"});
   })
+
+  var snegcounter = 0
+
+  $('#sc_71').click(function() {
+    $(sc_71).css({"opacity":"1"});
+    snegcounter+='1'
+  });
+
+  $('#next7').click(function() {
+    var form = $("form.form7")[0];
+    var log = $(".log7")[0];
+
+    form.addEventListener("submit", function(event) {
+      if (snegcounter == 1) {
+        counter+='1'
+      }
+      console.log(counter)
+      event.preventDefault();
+    }, false);
+
+    $('.contentWrapper').css({"transform":"translateY(-800vh)"});
+  })
+
+  var podarkicounter = 0
+
+  $('#sc_811').click(function() {
+    $(sc_811).css({"opacity":"1"});
+    $(sc_812).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_812').click(function() {
+    $(sc_811).css({"opacity":"1"});
+    $(sc_812).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_821').click(function() {
+    $(sc_821).css({"opacity":"1"});
+    $(sc_822).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_822').click(function() {
+    $(sc_821).css({"opacity":"1"});
+    $(sc_822).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_831').click(function() {
+    $(sc_831).css({"opacity":"1"});
+    $(sc_832).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_832').click(function() {
+    $(sc_831).css({"opacity":"1"});
+    $(sc_832).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_841').click(function() {
+    $(sc_841).css({"opacity":"1"});
+    $(sc_842).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_842').click(function() {
+    $(sc_841).css({"opacity":"1"});
+    $(sc_842).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_851').click(function() {
+    $(sc_851).css({"opacity":"1"});
+    $(sc_852).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#sc_852').click(function() {
+    $(sc_851).css({"opacity":"1"});
+    $(sc_852).css({"opacity":"1"});
+    podarkicounter += 1
+  });
+
+  $('#next8').click(function() {
+    var form = $("form.form8")[0];
+    form.addEventListener("submit", function(event) {
+      if (podarkicounter == 5) {
+        counter+='1'
+      }
+      console.log(counter)
+      event.preventDefault();
+
+
+            var fnlcounter = 0
+            for (var i = 0; i < counter.length; i++) {
+              if (counter[i] == '1') {
+                fnlcounter+=1
+              }
+            }
+
+            // $("h2.result").innerHTML = fnlcounter + '/' + counter.length
+            results = document.getElementsByClassName('results')[0]
+            results.innerHTML = 'Ваш результат ' + fnlcounter + '/8'
+
+            console.log(counter, fnlcounter)
+    }, false);
+
+    $('.contentWrapper').css({"transform":"translateY(-900vh)"});
+  })
+
+
 
 })
