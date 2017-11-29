@@ -389,6 +389,12 @@ a {
     text-align: center;
     margin-top: 10px; }
 
+.socialWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+
 @media (max-width: 1024px) {
   .testWrapper {
     transform: scale(0.8); } }
