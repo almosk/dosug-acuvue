@@ -89,13 +89,13 @@ $(function() {
     var log = $(".log2")[0];
 
     form.addEventListener("submit", function(event) {
-      var data = new FormData(form);
-      var output = "";
-      for (const entry of data) {
-        output = entry[0] + "=" + entry[1] + "\r";
-        counter+=entry[1]
-        console.log(counter)
-      };
+      // var data = new FormData(form);
+      // var output = "";
+      // for (const entry of data) {
+        // output = entry[0] + "=" + entry[1] + "\r";
+        // counter+=entry[1]
+        // console.log(counter)
+      // };
       event.preventDefault();
     }, false);
 
