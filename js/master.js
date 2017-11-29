@@ -5,7 +5,7 @@ $(function() {
     $('.bg').css({"opacity":".5"});
   })
 
-  var counter = ''
+  var counter = '0'
 
   var dedmorozcounter = 0
 
@@ -87,15 +87,13 @@ $(function() {
   $('#next2').click(function() {
     var form = $("form.form2")[0];
     var log = $(".log2")[0];
+    var elem = document.getElementById("q2c")
 
     form.addEventListener("submit", function(event) {
-      // var data = new FormData(form);
-      // var output = "";
-      // for (const entry of data) {
-        // output = entry[0] + "=" + entry[1] + "\r";
-        // counter+=entry[1]
-        // console.log(counter)
-      // };
+      if (elem.checked) {
+        counter+='1'
+      }
+      console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -134,15 +132,13 @@ $(function() {
   $('#next4').click(function() {
     var form = $("form.form4")[0];
     var log = $(".log4")[0];
+    var elem = document.getElementById("q4c")
 
     form.addEventListener("submit", function(event) {
-      var data = new FormData(form);
-      var output = "";
-      for (const entry of data) {
-        output = entry[0] + "=" + entry[1] + "\r";
-        counter+=entry[1]
-        console.log(counter)
-      };
+      if (elem.checked) {
+        counter+='1'
+      }
+      console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -152,15 +148,13 @@ $(function() {
   $('#next5').click(function() {
     var form = $("form.form5")[0];
     var log = $(".log5")[0];
+    var elem = document.getElementById("q5b")
 
     form.addEventListener("submit", function(event) {
-      var data = new FormData(form);
-      var output = "";
-      for (const entry of data) {
-        output = entry[0] + "=" + entry[1] + "\r";
-        counter+=entry[1]
-        console.log(counter)
-      };
+      if (elem.checked) {
+        counter+='1'
+      }
+      console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -170,17 +164,14 @@ $(function() {
   $('#next6').click(function() {
     var form = $("form.form6")[0];
     var log = $(".log6")[0];
+    var elem = document.getElementById("q6c")
 
     form.addEventListener("submit", function(event) {
-      var data = new FormData(form);
-      var output = "";
-      for (const entry of data) {
-        output = entry[0] + "=" + entry[1] + "\r";
-        counter+=entry[1]
-        console.log(counter)
-      };
+      if (elem.checked) {
+        counter+='1'
+      }
+      console.log(counter)
       event.preventDefault();
-
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-700vh)"});
@@ -279,18 +270,17 @@ $(function() {
       console.log(counter)
       event.preventDefault();
 
+      var fnlcounter = 0
+      for (var i = 0; i < counter.length; i++) {
+        if (counter[i] == '1') {
+          fnlcounter+=1
+        }
+      }
 
-            var fnlcounter = 0
-            for (var i = 0; i < counter.length; i++) {
-              if (counter[i] == '1') {
-                fnlcounter+=1
-              }
-            }
+      results = document.getElementsByClassName('results')[0]
+      results.innerHTML = 'Ваш результат ' + fnlcounter + '/8'
 
-            results = document.getElementsByClassName('results')[0]
-            results.innerHTML = 'Ваш результат ' + fnlcounter + '/8'
-
-            console.log(counter, fnlcounter)
+      console.log(counter, fnlcounter)
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-900vh)"});
