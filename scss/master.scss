@@ -450,7 +450,7 @@ a {
     height: 48px;
     margin: auto;
     margin-top: 50px;
-    background: #00E559;
+    background: #92C1E9;
     border-radius: 5px;
     cursor: pointer;
 
@@ -469,6 +469,20 @@ a {
       box-shadow: 0 1px 8px 0 #CCCCCC;
       text-decoration: underline;
     }
+  }
+
+  .back {
+    display: block;
+    width: 100%;
+    font-family: GraphikCy-Regular;
+    font-size: 10px;
+    color: #01468B;
+    opacity: .7;
+    letter-spacing: 0.33px;
+    line-height: 24px;
+    text-align: center;
+
+    margin-top: 10px;
   }
 
 }
