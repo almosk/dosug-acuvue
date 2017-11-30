@@ -436,6 +436,10 @@ a {
   align-items: center;
   justify-content: center;
 
+  .text {
+    transform: scale(.9);
+  }
+
   .results {
     font-family: GraphikLCG-Regular;
     font-size: 55px;
@@ -461,33 +465,33 @@ a {
     width: 400px;
     height: auto;
 
-    margin: 20px 43px;
+    margin: 0px 43px;
   }
 
   .greenbutton {
     display: block;
-    width: 280px;
-    height: 48px;
+    width: 340px;
+    height: 55px;
     margin: auto;
     margin-top: 50px;
     background: #01468C;
     border-radius: 5px;
     cursor: pointer;
 
-    font-family: GraphikLCG-Medium;
-    font-size: 15px;
+    font-family: GraphikLCG-Regular;
+    font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0.7px;
-    line-height: 48px;
+    line-height: 55px;
     text-decoration: none;
     text-align: center;
     transition: .2s ease-in;
 
     &:hover {
       // transform: scale(1.005);
-      -webkit-box-shadow: 0 1px 8px 0 #A6A6A6;
-      box-shadow: 0 1px 8px 0 #CCCCCC;
-      text-decoration: underline;
+      box-shadow: 0 1px 4px 0 #9b9b9b;
+      transform: scale(1.01);
+      // text-decoration: underline;
     }
   }
 
@@ -502,7 +506,7 @@ a {
     line-height: 24px;
     text-align: center;
 
-    margin-right: 10px;
+    margin-top: 30px;
   }
 
 }
@@ -528,22 +532,20 @@ a {
 .socialWrapper {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 25px;
+  align-items: center;
+  margin-top: 45px;
 
-  & * {
-    opacity: .7;
-
-    &:hover {
-      opacity: 1;
-    }
+  p {
+    display: block;
+    text-align: center;
+    opacity: .6;
   }
-
 }
 
 .social-likes__widget {
-  border: 0px !important;
+  // border: 0px !important;
 }
 
 @media (max-width: 1280px) {
@@ -657,6 +659,10 @@ a {
   .socialWrapper {
     margin-top: 35px;
     transform: scale(1.4);
+  }
+
+  .social-likes, .social-likes__widget_single {
+    transform: scale(.8);
   }
 }
 
