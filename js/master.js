@@ -83,7 +83,7 @@ $(function() {
       if (dedmorozcounter == 5) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -99,7 +99,7 @@ $(function() {
       if (elem.checked) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -128,7 +128,7 @@ $(function() {
       if (licounter == 1) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -144,7 +144,7 @@ $(function() {
       if (elem.checked) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -160,7 +160,7 @@ $(function() {
       if (elem.checked) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -176,7 +176,7 @@ $(function() {
       if (elem.checked) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -198,7 +198,7 @@ $(function() {
       if (snegcounter == 1) {
         counter+='1'
       }
-      console.log(counter)
+      // console.log(counter)
       event.preventDefault();
     }, false);
 
@@ -301,17 +301,18 @@ $(function() {
         resultsP.innerHTML = 'Да у вас орлиный глаз! Острое зрение ваш конек, но терять это качество точно не стоит. Чтобы вам было проще, попробуйте линзы Acuvue, с ними вы увидите мир по-новому. Если вы до сих пор сомневаетесь, то попробуйте сами! <br><br>Достаточно просто оставить заявку на сайте, и вы получите первую пару линз абсолютно бесплатно :)'
       }
 
-      if (fnlcounter == 0) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 1) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 2) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 3) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 4) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 5) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 6) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 7) {$("meta[property='og:image']").attr("content", 'yooo');}
-      if (fnlcounter == 8) {$("meta[property='og:image']").attr("content", 'yooo');}
+      // сюда вместо IMAGE ссылки на картинки от 0 до 8
+      if (fnlcounter == 0) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 1) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 2) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 3) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 4) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 5) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 6) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 7) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      if (fnlcounter == 8) {$("meta[property='og:image']").attr("content", 'IMAGE');}
 
-      console.log(counter, fnlcounter)
+      // console.log(counter, fnlcounter)
     }, false);
 
     $('.contentWrapper').css({"transform":"translateY(-900vh)"});
