@@ -593,7 +593,9 @@ a {
 
 }
 
-@media only screen and (max-device-width: 736px) and (min-device-width: 665px) {
+@media only screen and (max-width: 736px)
+// and (min-width: 665px)
+{
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
@@ -624,6 +626,10 @@ a {
 
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     transform: scale(.65);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .lastpage .text {
