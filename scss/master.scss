@@ -629,7 +629,7 @@ a {
   }
 }
 
-@media (max-device-width: 736px) {
+@media (max-width: 736px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: row;
     transform: scale(.45);
@@ -662,7 +662,7 @@ a {
   }
 }
 
-@media (max-device-width: 414px) {
+@media (max-width: 414px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: column;
     transform: scale(.65);
@@ -731,7 +731,7 @@ a {
   }
 }
 
-@media (max-device-width: 320px) {
+@media (max-width: 320px) {
   .page0 {
     .frame {
       min-width: 507px;

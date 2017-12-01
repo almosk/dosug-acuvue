@@ -464,7 +464,7 @@ a {
       .logos .acuvueLogo .small {
         font-size: 5px;
         line-height: 7px; } }
-@media (max-device-width: 736px) {
+@media (max-width: 736px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: row;
     transform: scale(0.45); }
@@ -485,7 +485,7 @@ a {
   .logos .protiv {
     padding: 0 500px 0 30px;
     text-align: left; } }
-@media (max-device-width: 414px) {
+@media (max-width: 414px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: column;
     transform: scale(0.65); }
@@ -535,7 +535,7 @@ a {
     line-height: 15px;
     font-family: GraphikLCG-Regular;
     color: #01468C; } }
-@media (max-device-width: 320px) {
+@media (max-width: 320px) {
   .page0 .frame {
     min-width: 507px;
     transform: scale(0.5); }
