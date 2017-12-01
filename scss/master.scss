@@ -593,7 +593,7 @@ a {
 
 }
 
-@media (max-width: 668px) {
+@media (max-device-width: 668px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
