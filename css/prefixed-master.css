@@ -102,9 +102,8 @@ a {
   .logos .protiv {
     position: fixed;
     bottom: 10px;
-    padding: 0 100px;
+    padding: 0 840px 0 30px;
     width: 100%;
-    text-align: center;
     font-size: 15px;
     line-height: 15px;
     font-family: GraphikLCG-Regular;
@@ -605,17 +604,20 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-transform: scale(0.65);
-            transform: scale(0.65); }
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    margin-bottom: 100px; }
 
   .page0 .frame {
     min-width: 507px;
-    -webkit-transform: scale(0.65);
-            transform: scale(0.65); }
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    margin-bottom: 100px; }
 
   .lastpage .text {
-    -webkit-transform: scale(0.65);
-            transform: scale(0.65); }
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    margin-bottom: 100px; }
 
   .logos {
     right: -110px;
