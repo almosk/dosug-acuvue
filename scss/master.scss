@@ -666,17 +666,20 @@ a {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: column;
     transform: scale(.60);
+    margin-bottom: 100px;
   }
 
   .page0 {
     .frame {
       min-width: 507px;
       transform: scale(.60);
+      margin-bottom: 100px;
     }
   }
 
   .lastpage .text {
     transform: scale(.60);
+    margin-bottom: 100px;
   }
 
   .logos {
