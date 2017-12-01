@@ -78,9 +78,8 @@ a {
   .logos .protiv {
     position: fixed;
     bottom: 10px;
-    padding: 0 100px;
+    padding: 0 840px 0 30px;
     width: 100%;
-    text-align: center;
     font-size: 15px;
     line-height: 15px;
     font-family: GraphikLCG-Regular;
