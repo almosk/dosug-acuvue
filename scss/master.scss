@@ -48,7 +48,7 @@ a {
   background-position: right;
   background-size: cover;
 
-  padding: 40px 24px;
+  padding: 15px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -77,8 +77,8 @@ a {
     font-family: GraphikLCG-Regular;
     font-size: 10px;
     color: #01468C;
-    letter-spacing: 0.7px;
-    line-height: 25px;
+    // letter-spacing: 0.7px;
+    line-height: 15px;
     text-align: right;
 
     display: flex;
@@ -93,11 +93,31 @@ a {
       width: 177px;
       height: 31px;
       transition: .1s ease-in-out;
+      margin: 5px 0;
 
       &:hover {
         transform: scale(1.05);
       }
     }
+
+    .small {
+      font-size: 7px;
+      line-height: 10px;
+    }
+  }
+
+  .protiv {
+    position: fixed;
+    bottom: 10px;
+    padding: 0 100px;
+    width: 100%;
+    text-align: center;
+    // left: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: GraphikLCG-Regular;
+    color: #121212;
+    opacity: .25;
   }
 }
 
@@ -450,7 +470,7 @@ a {
     margin-bottom: 20px;
   }
 
-  p {
+  .resultsP {
     width: 486px;
     font-family: GraphikLCG-Regular;
     font-size: 16px;
@@ -493,6 +513,17 @@ a {
       transform: scale(1.01);
       // text-decoration: underline;
     }
+
+  }
+  .protiv2 {
+    width: 486px;
+    font-family: GraphikLCG-Regular;
+    font-size: 8px;
+    color: #01468B;
+    letter-spacing: 0.33px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 
   .back {
@@ -550,7 +581,7 @@ a {
 
 @media (max-width: 1280px) {
   .logos {
-    padding: 30px 24px;
+    padding: 20px 15px;
   }
 
   .lastpage .text {
@@ -577,20 +608,58 @@ a {
       margin-bottom: 50px;
     }
   }
-
   .logos {
     right: -90px;
     padding: 30px 110px;
+    background-image: none;
 
     .dosugLogo a {
       width: 100px;
     }
 
-    .acuvueLogo a {
-      width: 110px;
+    .acuvueLogo {
+      width: 100px;
+
+      a {
+        width: 90px;
+        margin: 0;
+      }
+
+      .small {
+        font-size: 5px;
+        line-height: 7px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 736px)
+// and (min-width: 665px)
+{
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: scale(.45);
+  }
+
+  .page0 {
+    .frame {
+      min-width: 507px;
+      transform: scale(.45);
     }
   }
 
+  .lastpage .text {
+    transform: scale(.45);
+
+    img {
+    width: 280px;
+    height: auto;
+    margin: 0px 103px;
+    }
+  }
 }
 
 
@@ -617,7 +686,7 @@ a {
 
   .logos {
     right: -110px;
-    padding: 16px 120px;
+    padding: 10px 120px;
 
     .dosugLogo a {
       width: 70px;
@@ -648,6 +717,18 @@ a {
 
   .social-likes, .social-likes__widget_single {
     transform: scale(.8);
+  }
+
+  .logos .protiv {
+    position: fixed;
+    bottom: 10px;
+    padding: 0 100px 0 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: GraphikLCG-Regular;
+    color: #01468C;
   }
 }
 
@@ -684,28 +765,5 @@ a {
         height: 14px;
       }
     }
-  }
-}
-
-@media only screen and (max-width: 736px)
-// and (min-width: 665px)
-{
-  .contentWrapperFrame .contentWrapper .page .testWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    transform: scale(.45);
-  }
-
-  .page0 {
-    .frame {
-      min-width: 507px;
-      transform: scale(.45);
-    }
-  }
-
-  .lastpage .text {
-    transform: scale(.45);
   }
 }

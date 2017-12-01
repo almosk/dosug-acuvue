@@ -36,7 +36,7 @@ a {
   background-image: url(../img/shape.svg);
   background-position: right;
   background-size: cover;
-  padding: 40px 24px;
+  padding: 15px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -56,8 +56,7 @@ a {
     font-family: GraphikLCG-Regular;
     font-size: 10px;
     color: #01468C;
-    letter-spacing: 0.7px;
-    line-height: 25px;
+    line-height: 15px;
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -69,9 +68,24 @@ a {
       background-size: contain;
       width: 177px;
       height: 31px;
-      transition: .1s ease-in-out; }
+      transition: .1s ease-in-out;
+      margin: 5px 0; }
       .logos .acuvueLogo a:hover {
         transform: scale(1.05); }
+    .logos .acuvueLogo .small {
+      font-size: 7px;
+      line-height: 10px; }
+  .logos .protiv {
+    position: fixed;
+    bottom: 10px;
+    padding: 0 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: GraphikLCG-Regular;
+    color: #121212;
+    opacity: .25; }
 
 .contentWrapperFrame {
   width: 100vw;
@@ -346,7 +360,7 @@ a {
     letter-spacing: 1.15px;
     line-height: 59px;
     margin-bottom: 20px; }
-  .lastpage p {
+  .lastpage .resultsP {
     width: 486px;
     font-family: GraphikLCG-Regular;
     font-size: 16px;
@@ -378,6 +392,15 @@ a {
     .lastpage .greenbutton:hover {
       box-shadow: 0 1px 4px 0 #9b9b9b;
       transform: scale(1.01); }
+  .lastpage .protiv2 {
+    width: 486px;
+    font-family: GraphikLCG-Regular;
+    font-size: 8px;
+    color: #01468B;
+    letter-spacing: 0.33px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px; }
   .lastpage .back {
     font-family: GraphikLCG-Regular;
     font-size: 14px;
@@ -414,7 +437,7 @@ a {
 
 @media (max-width: 1280px) {
   .logos {
-    padding: 30px 24px; }
+    padding: 20px 15px; }
 
   .lastpage .text {
     transform: scale(0.8); } }
@@ -433,11 +456,36 @@ a {
 
   .logos {
     right: -90px;
-    padding: 30px 110px; }
+    padding: 30px 110px;
+    background-image: none; }
     .logos .dosugLogo a {
       width: 100px; }
-    .logos .acuvueLogo a {
-      width: 110px; } }
+    .logos .acuvueLogo {
+      width: 100px; }
+      .logos .acuvueLogo a {
+        width: 90px;
+        margin: 0; }
+      .logos .acuvueLogo .small {
+        font-size: 5px;
+        line-height: 7px; } }
+@media only screen and (max-width: 736px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: scale(0.45); }
+
+  .page0 .frame {
+    min-width: 507px;
+    transform: scale(0.45); }
+
+  .lastpage .text {
+    transform: scale(0.45); }
+    .lastpage .text img {
+      width: 280px;
+      height: auto;
+      margin: 0px 103px; } }
 @media (max-device-width: 414px) {
   .page0 .frame {
     min-width: 507px;
@@ -455,7 +503,7 @@ a {
 
   .logos {
     right: -110px;
-    padding: 16px 120px; }
+    padding: 10px 120px; }
     .logos .dosugLogo a {
       width: 70px;
       height: 18px; }
@@ -477,7 +525,18 @@ a {
     transform: scale(1.4); }
 
   .social-likes, .social-likes__widget_single {
-    transform: scale(0.8); } }
+    transform: scale(0.8); }
+
+  .logos .protiv {
+    position: fixed;
+    bottom: 10px;
+    padding: 0 100px 0 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: GraphikLCG-Regular;
+    color: #01468C; } }
 @media (max-device-width: 320px) {
   .page0 .frame {
     min-width: 507px;
@@ -501,19 +560,5 @@ a {
       .logos .acuvueLogo a {
         width: 75px;
         height: 14px; } }
-@media only screen and (max-width: 736px) {
-  .contentWrapperFrame .contentWrapper .page .testWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    transform: scale(0.45); }
-
-  .page0 .frame {
-    min-width: 507px;
-    transform: scale(0.45); }
-
-  .lastpage .text {
-    transform: scale(0.45); } }
 
 /*# sourceMappingURL=master.css.map */
