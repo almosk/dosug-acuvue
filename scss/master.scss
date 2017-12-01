@@ -665,18 +665,18 @@ a {
 @media (max-width: 414px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: column;
-    transform: scale(.6);
+    transform: scale(.60);
   }
 
   .page0 {
     .frame {
       min-width: 507px;
-      transform: scale(.6);
+      transform: scale(.60);
     }
   }
 
   .lastpage .text {
-    transform: scale(.6);
+    transform: scale(.60);
   }
 
   .logos {
