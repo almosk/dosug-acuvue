@@ -438,7 +438,7 @@ a {
       width: 100px; }
     .logos .acuvueLogo a {
       width: 110px; } }
-@media (max-width: 736px) and (min-width: 665px) {
+@media only screen and (max-width: 736px) and (min-width: 665px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
