@@ -409,7 +409,7 @@ a {
     letter-spacing: 0.33px;
     line-height: 24px;
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 20px; }
 
 #sc11, #sc12, #sc_811, #sc_812 {
   animation: pulse 1s infinite;
@@ -429,7 +429,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 45px; }
+  margin-top: 35px; }
   .socialWrapper p {
     display: block;
     text-align: center;
@@ -468,7 +468,7 @@ a {
       .logos .acuvueLogo .small {
         font-size: 5px;
         line-height: 7px; } }
-@media only screen and (max-width: 736px) {
+@media (max-device-width: 736px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
@@ -476,27 +476,29 @@ a {
     justify-content: flex-start;
     transform: scale(0.45); }
 
-  .page0 .frame {
-    min-width: 507px;
-    transform: scale(0.45); }
-
   .lastpage .text {
     transform: scale(0.45); }
     .lastpage .text img {
       width: 280px;
       height: auto;
-      margin: 0px 103px; } }
+      margin: 0px 103px; }
+    .lastpage .text .results {
+      font-size: 48px; }
+
+  .page0 .frame {
+    min-width: 507px;
+    transform: scale(0.45); } }
 @media (max-device-width: 414px) {
   .page0 .frame {
     min-width: 507px;
     transform: scale(0.65); }
 
   .contentWrapperFrame .contentWrapper .page .testWrapper {
-    transform: scale(0.65);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    transform: scale(0.65); }
 
   .lastpage .text {
     transform: scale(0.65); }
@@ -523,9 +525,11 @@ a {
   .socialWrapper {
     margin-top: 35px;
     transform: scale(1.4); }
+    .socialWrapper .resultsP {
+      margin-bottom: 0; }
 
   .social-likes, .social-likes__widget_single {
-    transform: scale(0.8); }
+    transform: scale(0.8) !important; }
 
   .logos .protiv {
     position: fixed;
