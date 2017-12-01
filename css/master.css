@@ -438,20 +438,6 @@ a {
       width: 100px; }
     .logos .acuvueLogo a {
       width: 110px; } }
-@media only screen and (max-width: 736px) {
-  .contentWrapperFrame .contentWrapper .page .testWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    transform: scale(0.45); }
-
-  .page0 .frame {
-    min-width: 507px;
-    transform: scale(0.45); }
-
-  .lastpage .text {
-    transform: scale(0.45); } }
 @media (max-device-width: 414px) {
   .page0 .frame {
     min-width: 507px;
@@ -515,5 +501,19 @@ a {
       .logos .acuvueLogo a {
         width: 75px;
         height: 14px; } }
+@media only screen and (max-width: 736px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: scale(0.45); }
+
+  .page0 .frame {
+    min-width: 507px;
+    transform: scale(0.45); }
+
+  .lastpage .text {
+    transform: scale(0.45); } }
 
 /*# sourceMappingURL=master.css.map */
