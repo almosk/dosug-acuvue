@@ -593,7 +593,7 @@ a {
 
 }
 
-@media only screen and (max-width: 736px) and (min-width: 665px) {
+@media only screen and (max-device-width: 736px) and (min-device-width: 665px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
