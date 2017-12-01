@@ -487,14 +487,14 @@ a {
 @media (max-width: 414px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     flex-direction: column;
-    transform: scale(0.65); }
+    transform: scale(0.6); }
 
   .page0 .frame {
     min-width: 507px;
-    transform: scale(0.65); }
+    transform: scale(0.6); }
 
   .lastpage .text {
-    transform: scale(0.65); }
+    transform: scale(0.6); }
 
   .logos {
     right: -110px;
