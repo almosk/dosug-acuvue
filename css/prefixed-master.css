@@ -553,7 +553,7 @@ a {
       width: 100px; }
     .logos .acuvueLogo a {
       width: 110px; } }
-@media (max-device-width: 736px) and (min-device-width: 666px) {
+@media (max-width: 736px) and (min-width: 666px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: -webkit-box;
     display: -ms-flexbox;

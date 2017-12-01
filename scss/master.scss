@@ -593,7 +593,7 @@ a {
 
 }
 
-@media (max-width: 668px) and (min-width: 666px) {
+@media (max-width: 668px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
@@ -623,6 +623,10 @@ a {
   }
 
   .contentWrapperFrame .contentWrapper .page .testWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     transform: scale(.65);
   }
 

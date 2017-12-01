@@ -438,7 +438,7 @@ a {
       width: 100px; }
     .logos .acuvueLogo a {
       width: 110px; } }
-@media (max-width: 668px) and (min-width: 666px) {
+@media (max-width: 668px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     display: flex;
     flex-direction: row;
@@ -458,6 +458,10 @@ a {
     transform: scale(0.65); }
 
   .contentWrapperFrame .contentWrapper .page .testWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     transform: scale(0.65); }
 
   .lastpage .text {
