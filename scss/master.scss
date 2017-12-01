@@ -590,24 +590,20 @@ a {
 }
 
 @media (max-width: 1024px) {
-  .testWrapper {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
     transform: scale(0.8);
   }
 }
 
 @media (max-width: 768px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
-    transform: scale(1);
-
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
 
     .textText {
       margin-bottom: 50px;
     }
   }
+
   .logos {
     right: -90px;
     padding: 30px 110px;
@@ -635,10 +631,7 @@ a {
 
 @media (max-device-width: 736px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper {
-    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
     transform: scale(.45);
   }
 
@@ -655,7 +648,7 @@ a {
       font-size: 48px;
     }
   }
-  
+
   .page0 {
     .frame {
       min-width: 507px;
@@ -663,24 +656,23 @@ a {
     }
   }
 
+  .logos .protiv {
+    padding: 0 500px 0 30px;
+    text-align: left;
+  }
 }
 
-
-
 @media (max-device-width: 414px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper {
+    flex-direction: column;
+    transform: scale(.65);
+  }
+
   .page0 {
     .frame {
       min-width: 507px;
       transform: scale(.65);
     }
-  }
-
-  .contentWrapperFrame .contentWrapper .page .testWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    transform: scale(.65);
   }
 
   .lastpage .text {
