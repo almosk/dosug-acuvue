@@ -108,13 +108,15 @@ a {
 
   .protiv {
     position: fixed;
+    display: block;
     bottom: 10px;
-    padding: 0 840px 0 30px;
-    width: 100%;
+    width: 300px;
+    margin: 0 30px 0 30px;
+    // width: 100%;
     // text-align: center;
-    // left: 10px;
-    font-size: 15px;
-    line-height: 15px;
+    left: 0px;
+    font-size: 20px;
+    line-height: 20px;
     font-family: GraphikLCG-Regular;
     color: #121212;
     opacity: .25;
@@ -446,7 +448,6 @@ a {
 }
 
 
-
 .lastpage {
   position: relative;
   width: 100vw;
@@ -471,7 +472,7 @@ a {
   }
 
   .resultsP {
-    width: 486px;
+    width: 580px;
     font-family: GraphikLCG-Regular;
     font-size: 16px;
     color: #01468B;
@@ -485,7 +486,7 @@ a {
     width: 400px;
     height: auto;
 
-    margin: 0px 43px;
+    margin: 0px 90px;
   }
 
   .greenbutton {
@@ -516,7 +517,7 @@ a {
 
   }
   .protiv2 {
-    width: 486px;
+    width: 580px;
     font-family: GraphikLCG-Regular;
     font-size: 8px;
     color: #01468B;
@@ -582,6 +583,10 @@ a {
 @media (max-width: 1280px) {
   .logos {
     padding: 20px 15px;
+
+    .protiv {
+      // width: 300px;
+    }
   }
 
   .lastpage .text {
@@ -636,10 +641,10 @@ a {
   }
 
   .lastpage .text {
-    transform: scale(.45);
+    transform: scale(.35);
 
     img {
-    width: 280px;
+    width: 380px;
     height: auto;
     margin: 0px 103px;
     }
@@ -657,8 +662,9 @@ a {
   }
 
   .logos .protiv {
-    padding: 0 480px 0 30px;
-    text-align: left;
+    width: 520px;
+    // padding: 0 480px 0 30px;
+    // text-align: left;
   }
 }
 
@@ -722,15 +728,17 @@ a {
   }
 
   .logos .protiv {
-    position: fixed;
-    bottom: 10px;
-    padding: 0 100px 0 20px;
-    width: 100%;
-    text-align: left;
-    font-size: 12px;
-    line-height: 15px;
-    font-family: GraphikLCG-Regular;
-    color: #01468C;
+    margin-left: 10px;
+    width: 300px;
+    // position: fixed;
+    // bottom: 10px;
+    // padding: 0 100px 0 20px;
+    // width: 100%;
+    // text-align: left;
+    // font-size: 12px;
+    // line-height: 15px;
+    // font-family: GraphikLCG-Regular;
+    // color: #01468C;
   }
 }
 
