@@ -35,6 +35,7 @@ a {
   background-size: cover;
   background-position: center;
   transition: .7s ease-in-out;
+  opacity: .7;
   // transform: rotate(180deg);
 
   z-index: -1;
@@ -109,13 +110,15 @@ a {
 
   .protiv {
     position: fixed;
+    width: 400px;
+    // width: auto;
     // display: block;
-    bottom: 10px;
+    bottom: 26px;
     // width: 290px;
-    margin: 0 300px 0 15px;
+    margin: 0 300px 0 0;
     // width: 100%;
     // text-align: center;
-    left: 0px;
+    left: 15px;
     font-size: 30px;
     line-height: 30px;
     font-family: GraphikLCG-Regular;

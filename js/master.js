@@ -3,6 +3,7 @@ $(function() {
     $('.contentWrapper').css({"transform":"translateY(-100vh)"});
     $('.bg').css({"transform":"scale(1.3)"});
     $('.bg').css({"opacity":".5"});
+    $('.protiv').css({"width":"auto"});
   })
 
   var counter = '0'
