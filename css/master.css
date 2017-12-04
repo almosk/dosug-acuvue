@@ -78,8 +78,7 @@ a {
   .logos .protiv {
     position: fixed;
     bottom: 10px;
-    width: 290px;
-    margin: 0 15px;
+    margin: 0 300px 0 15px;
     left: 0px;
     font-size: 30px;
     line-height: 30px;
