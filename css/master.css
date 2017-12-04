@@ -493,12 +493,12 @@ a {
 
   .page0 .frame {
     min-width: 507px;
-    transform: scale(0.6);
-    margin-bottom: 100px; }
+    transform: scale(0.5);
+    margin-bottom: 150px; }
 
   .lastpage .text {
-    transform: scale(0.6);
-    margin-bottom: 100px; }
+    transform: scale(0.5);
+    margin-bottom: 150px; }
 
   .logos {
     right: -110px;
@@ -530,7 +530,9 @@ a {
 
   .logos .protiv {
     margin-left: 10px;
-    width: 300px; } }
+    width: 300px;
+    font-size: 17px;
+    line-height: 17px; } }
 @media (max-width: 320px) {
   .page0 .frame {
     min-width: 507px;

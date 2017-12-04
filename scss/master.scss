@@ -678,14 +678,14 @@ a {
   .page0 {
     .frame {
       min-width: 507px;
-      transform: scale(.60);
-      margin-bottom: 100px;
+      transform: scale(.50);
+      margin-bottom: 150px;
     }
   }
 
   .lastpage .text {
-    transform: scale(.60);
-    margin-bottom: 100px;
+    transform: scale(.50);
+    margin-bottom: 150px;
   }
 
   .logos {
@@ -730,6 +730,8 @@ a {
   .logos .protiv {
     margin-left: 10px;
     width: 300px;
+    font-size: 17px;
+    line-height: 17px;
     // position: fixed;
     // bottom: 10px;
     // padding: 0 100px 0 20px;
