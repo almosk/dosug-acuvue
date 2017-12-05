@@ -697,9 +697,13 @@ a {
     right: -110px;
     padding: 10px 120px;
 
-    .dosugLogo a {
-      width: 70px;
-      height: 18px;
+    .dosugLogo {
+
+      a {
+        background-image: url(../img/dosug-logo2.png);
+        width: 70px;
+        height: 18px;
+      }
     }
 
     .acuvueLogo {
@@ -737,6 +741,8 @@ a {
     width: 290px;
     font-size: 15px;
     line-height: 15px;
+    left: 3px;
+    bottom: 7px;
     // position: fixed;
     // bottom: 10px;
     // padding: 0 100px 0 20px;

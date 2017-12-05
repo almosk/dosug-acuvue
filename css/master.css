@@ -504,6 +504,7 @@ a {
     right: -110px;
     padding: 10px 120px; }
     .logos .dosugLogo a {
+      background-image: url(../img/dosug-logo2.png);
       width: 70px;
       height: 18px; }
     .logos .acuvueLogo {
@@ -532,7 +533,9 @@ a {
     margin-left: 10px;
     width: 290px;
     font-size: 15px;
-    line-height: 15px; } }
+    line-height: 15px;
+    left: 3px;
+    bottom: 7px; } }
 @media (max-width: 320px) {
   .page0 .frame {
     min-width: 507px;

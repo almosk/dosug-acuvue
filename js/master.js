@@ -319,7 +319,9 @@ $(function() {
     $('.contentWrapper').css({"transform":"translateY(-900vh)"});
     $('.bg').css({"transform":"scale(1.5)"});
     $('.bg').css({"opacity":".2"});
-    $('.protiv').css({"width":"400px"});
+    if (window.innerWidth > 414) {
+      $('.protiv').css({"width":"400px"});
+    }
   })
 
   $('a.back').click(function() {
