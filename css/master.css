@@ -484,7 +484,12 @@ a {
     transform: scale(0.45); }
 
   .logos .protiv {
-    width: 520px; } }
+    width: 520px;
+    left: 5px;
+    bottom: 5px;
+    margin: 0 130px 0 0;
+    font-size: 20px;
+    line-height: 20px; } }
 @media (max-width: 414px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper .textText h2 {
     margin-bottom: 5px; }

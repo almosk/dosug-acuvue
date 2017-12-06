@@ -319,8 +319,13 @@ $(function() {
     $('.contentWrapper').css({"transform":"translateY(-900vh)"});
     $('.bg').css({"transform":"scale(1.5)"});
     $('.bg').css({"opacity":".2"});
+
     if (window.innerWidth > 414) {
       $('.protiv').css({"width":"400px"});
+    }
+
+    if ((window.innerWidth < 737) && (window.innerWidth > 414)) {
+      $('.protiv').css({"width":"300px"});
     }
   })
 
