@@ -598,8 +598,18 @@ a {
             transform: scale(0.45); }
 
   .logos .protiv {
-    width: 520px; } }
+    width: 520px;
+    left: 5px;
+    bottom: 5px;
+    margin: 0 130px 0 0;
+    font-size: 20px;
+    line-height: 20px; }
+  .logos .dosugLogo a {
+    background-image: url(../img/dosug-logo2.png); } }
 @media (max-width: 414px) {
+  .contentWrapperFrame .contentWrapper .page .testWrapper .textText h2 {
+    margin-bottom: 5px; }
+
   .contentWrapperFrame .contentWrapper .page .testWrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -607,7 +617,13 @@ a {
             flex-direction: column;
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
-    margin-bottom: 100px; }
+    margin-bottom: 130px; }
+
+  .contentWrapperFrame .contentWrapper .page .testWrapper .testImage {
+    margin-top: -30px; }
+
+  .contentWrapperFrame .contentWrapper .page .testWrapper .textText .formUl {
+    margin-bottom: 20px; }
 
   .page0 .frame {
     min-width: 507px;
@@ -654,7 +670,9 @@ a {
     margin-left: 10px;
     width: 290px;
     font-size: 15px;
-    line-height: 15px; } }
+    line-height: 15px;
+    left: 3px;
+    bottom: 7px; } }
 @media (max-width: 320px) {
   .page0 .frame {
     min-width: 507px;

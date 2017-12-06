@@ -489,7 +489,9 @@ a {
     bottom: 5px;
     margin: 0 130px 0 0;
     font-size: 20px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  .logos .dosugLogo a {
+    background-image: url(../img/dosug-logo2.png); } }
 @media (max-width: 414px) {
   .contentWrapperFrame .contentWrapper .page .testWrapper .textText h2 {
     margin-bottom: 5px; }
@@ -518,7 +520,6 @@ a {
     right: -110px;
     padding: 10px 120px; }
     .logos .dosugLogo a {
-      background-image: url(../img/dosug-logo2.png);
       width: 70px;
       height: 18px; }
     .logos .acuvueLogo {

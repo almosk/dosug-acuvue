@@ -666,13 +666,21 @@ a {
     }
   }
 
-  .logos .protiv {
-    width: 520px;
-    left: 5px;
-    bottom: 5px;
-    margin: 0 130px 0 0;
-    font-size: 20px;
-    line-height: 20px;
+  .logos {
+    .protiv {
+      width: 520px;
+      left: 5px;
+      bottom: 5px;
+      margin: 0 130px 0 0;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .dosugLogo {
+      a {
+        background-image: url(../img/dosug-logo2.png);
+      }
+    }
   }
 }
 
@@ -721,7 +729,7 @@ a {
     .dosugLogo {
 
       a {
-        background-image: url(../img/dosug-logo2.png);
+        // background-image: url(../img/dosug-logo2.png);
         width: 70px;
         height: 18px;
       }

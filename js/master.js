@@ -302,16 +302,16 @@ $(function() {
         resultsP.innerHTML = 'Да у вас орлиный глаз! Острое зрение ваш конек, но терять это качество точно не стоит. Чтобы вам было проще, попробуйте линзы Acuvue, с ними вы увидите мир по-новому. Если вы до сих пор сомневаетесь, то попробуйте сами! <br><br>Достаточно просто записаться на визит в ближайшую оптику, и вы сможете получить первую пару линз абсолютно бесплатно :)'
       }
 
-      // сюда вместо IMAGE ссылки на картинки от 0 до 8
-      if (fnlcounter == 0) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 1) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 2) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 3) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 4) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 5) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 6) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 7) {$("meta[property='og:image']").attr("content", 'IMAGE');}
-      if (fnlcounter == 8) {$("meta[property='og:image']").attr("content", 'IMAGE');}
+      // сюда вместо img/share_.jpg ссылки на картинки от 0 до 8
+      if (fnlcounter == 0) {$("meta[property='og:image']").attr("content", 'img/share0.jpg');}
+      if (fnlcounter == 1) {$("meta[property='og:image']").attr("content", 'img/share1.jpg');}
+      if (fnlcounter == 2) {$("meta[property='og:image']").attr("content", 'img/share2.jpg');}
+      if (fnlcounter == 3) {$("meta[property='og:image']").attr("content", 'img/share3.jpg');}
+      if (fnlcounter == 4) {$("meta[property='og:image']").attr("content", 'img/share4.jpg');}
+      if (fnlcounter == 5) {$("meta[property='og:image']").attr("content", 'img/share5.jpg');}
+      if (fnlcounter == 6) {$("meta[property='og:image']").attr("content", 'img/share6.jpg');}
+      if (fnlcounter == 7) {$("meta[property='og:image']").attr("content", 'img/share7.jpg');}
+      if (fnlcounter == 8) {$("meta[property='og:image']").attr("content", 'img/share8.jpg');}
 
       // console.log(counter, fnlcounter)
     }, false);
